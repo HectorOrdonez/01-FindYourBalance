@@ -1,0 +1,70 @@
+@import "colors";
+
+/***************************/
+/** General definitions   **/
+/***************************/
+
+.ft-title {
+  text-transform: uppercase;
+  color: $black;
+}
+
+.ft-title-dot {
+  color: $orange;
+}
+
+/***************************/
+/** Responsive sizes      **/
+/***************************/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  .ft-title {
+    font-size: 1.5em;
+  }
+
+  .ft-title-dot {
+    font-size: 1.5em;
+  }
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .ft-title {
+    font-size: 1.5em;
+  }
+
+  .ft-title-dot {
+    font-size: 1.5em;
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+  .ft-title {
+    font-size: 1.5em;
+  }
+
+  .ft-title-dot {
+    font-size: 1.5em;
+  }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  .ft-title {
+    font-size: 1.5em;
+  }
+
+  .ft-title-dot {
+    font-size: 1.5em;
+  }
+
+}
