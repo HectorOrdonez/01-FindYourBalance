@@ -1,17 +1,71 @@
 @import "colors";
 
 /***************************/
-/** General definitions   **/
+/** Font Classes   **/
 /***************************/
 
-.ft-title {
-  font-size: 1.5em;
+.ft-mainTitle {
+  font-style: Anton
+  font-size: 6em;
   text-transform: uppercase;
   color: $black;
 }
 
-.ft-title-dot {
-  font-size: 1.5em;
+.ft-dot {
+  font-style: Lobster
+  font-size: 15em;
+  color: $orange;
+}
+
+.ft-subTitle {
+  font-style: Anton
+  font-size: 4em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.ft-column-title {
+  font-style: Lobster
+  font-size: 3em;
+  color: $black;
+}
+
+.ft-mainColumn-title {
+  font-style: Raleway
+  font-size: 3em;
+  text-transform: uppercase;
+  color: $orange;
+}
+
+.ft-mainColumn-content {
+  font-style: Georgia
+  font-size: 36pt;
+  color: $orange;
+}
+
+.ft-sideColumn-title {
+  font-style: Raleway
+  font-size: 2em;
+  text-transform: uppercase;
+  color: $orange;
+}
+
+.ft-sideColumn-content {
+  font-style: Georgia
+  font-size: 2em;
+  color: $orange;
+}
+
+.ft-extraColumn-title {
+  font-style: Raleway
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: $orange;
+}
+
+.ft-extraColumn-content {
+  font-style: Georgia
+  font-size: 1.6em;
   color: $orange;
 }
 
@@ -22,51 +76,26 @@
 /* Large desktop */
 @media (min-width: 1200px) {
 
-  .ft-title {
-    font-size: 1.5em;
-  }
-
-  .ft-title-dot {
-    font-size: 1.5em;
-  }
-
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-
-  .ft-title {
-    font-size: 1.2em;
-  }
-
-  .ft-title-dot {
-    font-size: 1.2em;
+  html {
+  font-size: 12px;
   }
 
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
 
-  .ft-title {
-    font-size: 1em;
-  }
-
-  .ft-title-dot {
-    font-size: 1em;
+  html {
+  font-size: 10px;
   }
 
 }
 
-/* Landscape phones and down */
+/* Phones */
 @media (max-width: 480px) {
 
-  .ft-title {
-    font-size: .9em;
-  }
-
-  .ft-title-dot {
-    font-size: .9em;
+  html {
+  font-size: 8px;
   }
 
 }
