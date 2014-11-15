@@ -3,24 +3,3 @@
 html, body {
   height: 100%;
 }
-
-.cover-wrapper:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: 0.25em;
-}
-
-.cover-wrapper {
-  height: calc(80% - 3em);
-  background: url('../img/main.jpg') center fixed;
-  background-size: cover;
-  text-align: center;
-}
-
-.cover-inner-wrapper {
-  display: inline-block;
-  vertical-align: middle;
-  color: #FFF;
-}

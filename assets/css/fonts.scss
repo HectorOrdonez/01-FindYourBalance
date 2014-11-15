@@ -5,11 +5,13 @@
 /***************************/
 
 .ft-title {
+  font-size: 1.5em;
   text-transform: uppercase;
   color: $black;
 }
 
 .ft-title-dot {
+  font-size: 1.5em;
   color: $orange;
 }
 
@@ -34,11 +36,11 @@
 @media (min-width: 768px) and (max-width: 979px) {
 
   .ft-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .ft-title-dot {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
 }
@@ -47,11 +49,11 @@
 @media (max-width: 767px) {
 
   .ft-title {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .ft-title-dot {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
 }
@@ -60,11 +62,11 @@
 @media (max-width: 480px) {
 
   .ft-title {
-    font-size: 1.5em;
+    font-size: .9em;
   }
 
   .ft-title-dot {
-    font-size: 1.5em;
+    font-size: .9em;
   }
 
 }
