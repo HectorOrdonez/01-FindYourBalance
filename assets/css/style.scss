@@ -3,3 +3,12 @@
 html, body {
   height: 100%;
 }
+
+.mainColumn, .sideColumn, .extraColumn {
+  text-align: center;
+}
+
+.mainColumn img, .sideColumn img, .extraColumn img {
+  width: 80%;
+  margin: 0 auto;
+}
