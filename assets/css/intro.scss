@@ -1,3 +1,5 @@
+@import "colors";
+
 .cover-wrapper:before {
   content: '';
   display: inline-block;
@@ -21,6 +23,11 @@
 
 h1 {
   margin-top: 2em;
+}
+
+.ft-mainTitle i {
+  font-size: 0.3em;
+  color: $orange;
 }
 
 .top-liner {

@@ -5,67 +5,58 @@
 /***************************/
 
 .ft-mainTitle {
-  font-style: Anton
-  font-size: 6em;
+  font-family: Anton;
+  font-size: 2em;
   text-transform: uppercase;
   color: $black;
 }
 
-.ft-dot {
-  font-style: Lobster
-  font-size: 15em;
-  color: $orange;
-}
-
 .ft-subTitle {
-  font-style: Anton
+  font-family: Anton;
   font-size: 4em;
   text-transform: uppercase;
   color: $black;
 }
 
 .ft-column-title {
-  font-style: Lobster
-  font-size: 3em;
+  font-family: Lobster;
+  font-size: 2.5em;
   color: $black;
 }
 
 .ft-mainColumn-title {
-  font-style: Raleway
-  font-size: 3em;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 2.5em;
   text-transform: uppercase;
   color: $orange;
 }
 
 .ft-mainColumn-content {
-  font-style: Georgia
-  font-size: 36pt;
-  color: $orange;
+  font-family: Georgia;
+  font-size: 2.5em;
+  color: $darkGrey;
 }
 
 .ft-sideColumn-title {
-  font-style: Raleway
+  font-family: Raleway;
+  font-weight: bold;
   font-size: 2em;
   text-transform: uppercase;
   color: $orange;
 }
 
 .ft-sideColumn-content {
-  font-style: Georgia
+  font-family: Georgia;
   font-size: 2em;
-  color: $orange;
+  color: $darkGrey;
 }
 
 .ft-extraColumn-title {
-  font-style: Raleway
+  font-family: Raleway;
+  font-weight: bold;
   font-size: 1.6em;
   text-transform: uppercase;
-  color: $orange;
-}
-
-.ft-extraColumn-content {
-  font-style: Georgia
-  font-size: 1.6em;
   color: $orange;
 }
 

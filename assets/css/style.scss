@@ -6,9 +6,17 @@ html, body {
 
 .mainColumn, .sideColumn, .extraColumn {
   text-align: center;
+  padding: 0 2em;
+}
+
+.mainColumn .row, .sideColumn .row, .extraColumn .row {
+}
+
+.mainColumn i, .sideColumn i, .extraColumn i {
+  color: $orange;
 }
 
 .mainColumn img, .sideColumn img, .extraColumn img {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
